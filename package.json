@@ -1,5 +1,6 @@
 {
   "name": "solarSystem",
+  "homepage": "https://alexjou.github.io/sistema-solar",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -7,15 +8,17 @@
     "bundle": "node node_modules/react-vr/scripts/bundle.js",
     "open": "node -e \"require('xopen')('http://localhost:8081/vr/')\"",
     "devtools": "react-devtools",
-    "test": "jest"
+    "test": "jest",
+    "deploy": "gh-pages -d vr/build"
   },
   "dependencies": {
+    "gh-pages": "^4.0.0",
     "ovrui": "~2.0.0",
     "react": "16.0.0",
     "react-native": "~0.48.0",
-    "three": "^0.87.0",
     "react-vr": "~2.0.0",
-    "react-vr-web": "~2.0.0"
+    "react-vr-web": "~2.0.0",
+    "three": "^0.87.0"
   },
   "devDependencies": {
     "babel-jest": "^19.0.0",

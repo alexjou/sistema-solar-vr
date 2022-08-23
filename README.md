@@ -8,7 +8,7 @@ Toda a movimentação do sistema solar, em 360º
 
 </br>
 <div align="center"> 
-<img src="./assets/Kaspper.gif" width="300" height="600" alt="Logo of the project" align="center">
+<img src="./static_assets/print.png" width="600" height="600" alt="Example of the project" align="center">
 </div>
 </br>
 

@@ -219,8 +219,8 @@ export default class solarSystem extends React.Component {
             ]
           }}
         />
-        
-        <Descriptions/>
+
+        <Descriptions />
 
       </View>
     );

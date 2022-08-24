@@ -7,7 +7,7 @@ import {
   PointLight,
   View,
 } from 'react-vr';
-import Descriptions from './components/DescriptionBox';
+import Descriptions from './src/components/DescriptionBox';
 
 export default class solarSystem extends React.Component {
   constructor() {
